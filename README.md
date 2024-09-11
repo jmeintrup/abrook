@@ -24,6 +24,6 @@ cargo build --release
 - -n (default: 10): Width of the grid.
 - -m (default: 10): Height of the grid.
 - -a, --alpha (default: 0.1): Probability of adding edges between vertices not in the same row or column.
-- -b, --beta (default: 0.1): Probability of removing edges between vertices in the same column.
+- -b, --beta (default: 0.1): Probability of removing edges between vertices in the same row or column.
 - output (default: graph.gr): Name of the output file where the graph will be saved.
 
